@@ -11,7 +11,7 @@ const short_videos =
     ,
     {
         sno:1,
-        video_src:"./videos/How to do barbell curls.mp4",
+        video_src:"https://res.cloudinary.com/dewqecuha/video/upload/v1765125495/How_to_do_barbell_curls_a8osld.mp4",
     }
     ,
     {
