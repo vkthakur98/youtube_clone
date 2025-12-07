@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <script src="https://kit.fontawesome.com/952d9cc6d5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Youtube Clone</title>
+</head>
+
+<body>
+    <div class="desktop-msg">
+        <h1>Sorry!This clone is only suitable for Mobile Phones</h1>
+    </div>
+    <div class="yt-clone-main"> 
+        <div class="side-menu-wrap">
+            <div class="side-menu">
+                <div style="padding: 10px 10px 0px 10px;"><img height="55" width="100" alt="youtube_icon"
+                        src="./images/yt-icon.webp" /></div>
+                <div class="side-menu-item"><i class="fa fa-fire"></i><span>Trending</span></div>
+                <div class="side-menu-item"><i class="fa fa-shopping-bag"></i><span>Shopping</span></div>
+                <div class="side-menu-item"><i class="fa fa-music"></i><span>Music</span></div>
+                <div class="side-menu-item"><i class="fa fa-clapperboard"></i><span>Films</span></div>
+                <div class="side-menu-item"><i class="fa-solid fa-stream"></i><span>Live</span></div>
+                <div class="side-menu-item"><i class="fa-solid fa-gamepad"></i><span>Gaming</span></div>
+                <div class="side-menu-item"><i class="fa-solid fa-newspaper"></i><span>News</span></div>
+                <div class="side-menu-item"><i class="fa-solid fa-trophy"></i><span>Sports</span></div>
+                <div class="side-menu-item"><i class="fa-solid fa-lightbulb"></i><span>Learning</span></div>
+                <div class="side-menu-item"><i class="fa-solid fa-shirt"></i><span>Fashion & Beauty</span></div>
+            </div>
+        </div>
+        <div class="yt-clone-head">
+            <div class="yt-head-icon"><img height="55" width="100" src="./images/yt-icon.webp" /></div>
+            <div class="yt-head-user-icons"><i class="fa-brands fa-chromecast"></i><i class="fa-regular fa-bell"></i><i
+                    class="fa-solid fa-search search-btn"></i><!--<button class="user-profile-mini">V</button>--><i
+                    class="fa-solid fa-user-circle"></i></div>
+        </div>
+        <div class="yt-head-btns"><button id="explorer-btn"><i class="fa fa-compass"
+                    aria-hidden="true"></i></button><button
+                class="active-yt-head-btn">All</button><button>Music</i></button><button>Mixes</button><button>Coding</button><button>Programming</button>
+        </div>
+        <div class="yt-ad-area">
+            <div class="yt-ad">
+                <div class="yt-ad-img"> 
+                    <img alt="vivekcodes.com ad " src="./images/myad.png" height="" width="100%" />
+                </div>
+                <div class="yt-ad-desc">
+                    <div class="yt-ad-icon-desc">
+                        <div class="ad-img-icon"><img alt="channel-img" src="./images/myad.png" height="35"
+                                width="35" /></div>
+                        <div>
+                            <div class="main-desc">Vivek codes|Frontend Devlopoer</div>
+                            <div class="sub-desc">If you are business owner, you must have a professional website visit
+                                site more inforomation.</div>
+                            <div><span class="sub-desc" style="font-weight: bold;color:black;">Ad</span><span
+                                    class="sub-desc">.vivekcodes.com</span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div><br>
+            <div class="ad-btn"><button>Visit Site <i class="fa fa-external-link" aria-hidden="true"></i></button></div>
+        </div>
+        <div class="shorts">
+            <div class="yt-shorts-head">
+                <img alt="short-icon" src="./images/youtube-shorts6078.jpg" height="55" width="100" />
+            </div>
+            <div class="short-videos">
+                <div class="short" vidsrc="JavaScript _THIS_ keyword in 1 Minute shorts.mp4">
+                    <img alt="short-video-thumbnail" src="./shorts-image/Screenshot_2023-08-06-20-22-44-71_40deb401b9ffe8e1df2f1cc5ba480b12.jpg" height="230" width="145" />
+                    <p class="short-name">Use of this keyword in javascript</p>
+                    <p class="short-views">128K views</p>
+                </div>
+                <div class="short" vidsrc="How to do barbell curls.mp4">
+                    <img alt="short-video-thumbnail" src="./shorts-image/Screenshot_2023-08-06-21-07-39-56_40deb401b9ffe8e1df2f1cc5ba480b12.jpg" height="230" width="145" />
+                    <p class="short-name">How to do barbell curls with barbell</p>
+                    <p class="short-views">128K views</p>
+                </div>
+                <div class="short" vidsrc="This Advanced Flexbox Trick Is Amazing!.mp4">
+                    <img alt="short-video-thumbnail" src="./shorts-image/Screenshot_2023-08-06-21-07-46-47_40deb401b9ffe8e1df2f1cc5ba480b12.jpg" height="230" width="145" />
+                    <p class="short-name">Flex box in css</p>
+                    <p class="short-views">128K views</p>
+                </div>
+            </div>
+        </div>
+        <div class="search-div">
+        <div class="search-head"><i class="fa fa-arrow-left backicon-search"></i><input id="searchkey" type="text" placeholder="Search Youtube"><button><i class="fa fa-microphone"></i></button></div>
+        <div class="search-suggestion">
+
+        </div>
+        </div>
+        <div class="short-video-player">
+        </div>
+        <div class="videos">
+            <div class="videos-sub" id="videos-sub-id">
+                <!--<div class="video">
+                    <img alt="video-thumbnail" width="100%" height="200px" src="./video-images/download.jpg" />
+                <div class="channel-pic-desc-container">
+                    <div class="channel-profile-pic"><img src="./images/myad.png" height="35" width="35"></div><div class="desc"><span class="main-desc">Full javascript tutorial with notes and interview questions</span><br><span class="sub-desc">Cool Programmer . 244K views . 5 days ago</span></div>
+                </div>
+                </div>
+                <div class="video">
+                    <img alt="video-thumbnail" width="100%" height="200px" src="./video-images/download.jpg" />
+                <div class="channel-pic-desc-container">
+                    <div class="channel-profile-pic"><img src="./images/myad.png" height="35" width="35"></div><div class="desc"><span class="main-desc">Full javascript tutorial with notes and interview questions</span><br><span class="sub-desc">Cool Programmer . 244K views . 5 days ago</span></div>
+                </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="player-suggestion">
+            <div class="settings-main">
+                <div class="settings">
+                    <div>
+                        <div class="settings-item"><span><i class="fa fa-sliders"></i></span><span>Quality</span><label>Data
+                                Saver(360p)></label></div>
+                                <div class="settings-item playback-speed"><span><i class="fa fa-circle-play"></i></span><span style="margin-left:-5px;">Playback Speed</span><label id="current-p-speed">Normal></label></div>
+                                <div class="settings-item"><span><i class="fa fa-closed-captioning" style="color:gray;"></i></span><span style="color:gray;margin-left:-30px;">Captions</span><label>Unavailable></label></div>
+                                <div class="settings-item"><span><i class="fa fa-gear"></i></span><span style="margin-left:-25px;">Additional Settings</span><label>></label></div>
+                    </div>
+                </div>
+            </div>
+            <div class="playback-speed-main">
+                <div class="settings" style="height: 54vh;">
+                    <div>
+                        <div class="settings-item playback-speed-item" pspeed="0.25"><span><i class="fa fa-sls picon" id="0.25icon"></i></span><span style="margin-left: -200px;">0.25x</span><label></label></div>
+                                <div class="settings-item playback-speed-item" pspeed="0.5" ><span><i class="fa fa-crcle-play picon" id="0.5icon"></i></span><span style="margin-left: -200px;">0.5x</span><label></label></div>
+                                <div class="settings-item playback-speed-item" pspeed="0.75"><span><i class="fa fa-clsed-captioning picon" id="0.75icon" ></i></span><span style="margin-left: -200px;">0.75x</span><label></label></div>
+                                <div class="settings-item playback-speed-item" pspeed="1"><span><i class="fa fa-check picon" id="1icon"></i></span><span style="margin-left: -200px;">Normal</span><label></label></div>
+                                <div class="settings-item playback-speed-item" pspeed="1.25"><span><i class="fa fa-ser picon" id="1.25icon"></i></span><span style="margin-left: -200px;">1.25x</span><label></label></div>
+                                <div class="settings-item playback-speed-item" pspeed="1.5"><span><i class="fa fa-ser picon" id="1.5icon"></i></span><span style="margin-left: -200px;">1.5x</span><label></label></div>
+                                <div class="settings-item playback-speed-item" pspeed="1.75"><span><i class="fa fa-ser picon" id="1.75icon"></i></span><span style="margin-left: -200px;">1.75x</span><label></label></div>
+                                <div class="settings-item playback-speed-item" pspeed="2"><span><i class="fa fa-ser picon" id="2icon"></i></span><span style="margin-left: -200px;">2x</span><label></label></div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-player"> 
+                <div class="video-player-contain">
+                    <video  width="100%" height="220" style="margin-top:-8px;" id="video-player-src">
+                    </video>
+                </div>
+                <div class="overlay-video">
+                    <div class="overlay-head-controls">
+                        <div class="minimize-player-btn"><i class="fa fa-angle-down" id="close-player"></i></div>
+                        <div class="player-top-other-ctrls"><i class="fa-brands fa-chromecast"></i><i
+                                class="fa-solid fa-closed-captioning"></i><i class="fa fa-cog settings-btn"></i></div>
+                    </div>
+                    <div class="video-controls">
+                        <i class="fa-sharp fa-solid fa-backward-step previoussong"></i><i class="fa-sharp fa-solid fa-play"
+                            id="video-play-pause-btn"></i><i class="fa-sharp fa-solid fa-forward-step nextsong"></i>
+                    </div>
+                </div>
+                <div class="overlay-video-loading">
+                    <div class="loader">
+                    </div>
+                </div>
+                <div class="foreward">
+                    <i class="fa fa-play r-foreward"></i><i class="fa fa-play r-foreward"></i><i
+                        class="fa fa-play r-foreward"></i>
+                </div>
+                <div class="backward">
+                    <i class="fa fa-play r-foreward"></i><i class="fa fa-play r-foreward"></i><i
+                        class="fa fa-play r-foreward"></i>
+                </div>
+                <div class="parent-progress-bar" style="position:absolute;">
+                    <div class="progress-bar" id="progressbar"></div>
+                    <span class="progress-bar-seeker" id="progressbarseeker"></span>
+                </div>
+            </div>
+            <div style="height: 70vh;overflow:scroll;scroll-behavior: smooth;">
+                <div class="video-desc">
+                    <div class="video-title"><span>Video uploaded on vivekcodes.com/Youtube_Clone</span></div>
+                    <div class="view-details">2M views 5 Days ago</div>
+                </div>
+                <div class="channel-desc">
+                    <div class="channel-desc-sub">
+                        <div class="channel-profile-pic"><img src="./images/myad.png" height="35" width="35" /></div>
+                        <span class="channel-name">Vivek Codes</span>
+                        <span class="subscriber-count">1.53M</span>
+                    </div>
+                    <div class="subscribe-btn-div">
+                        <button class="subscribe-btn">Subscribe</button>
+                        <button class="after-subscribe-btn" ><i class="fa fa-bell"></i><i class="fa fa-angle-down"></i></button>
+                    </div>
+                </div>
+                <div class="viewers-action">
+                    <div class="viewers-action-btns">
+                        <div><i class="fa fa-thumbs-o-up"></i>|<i class="fa fa-thumbs-o-down"
+                                style="padding-left:10px;"></i></div>
+                        <div><i class="fas fa-bolt"></i><span>Remix</span></div>
+                        <div><i class="fa fa-share"></i><span>Share</span></div>
+                        <div><i class="fas fa-cut"></i><span>Trim</span></div>
+                        <div><i class="fa fa-save"></i><span>Save</span></div>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <div class="top-comment-container">
+                        <div class="comment-head">
+                            <b><span>Comments</span></b><span style="margin-left: 10px;color:gray">1K</span>
+                        </div>
+                        <div class="top-comment">
+                            <span class="comment-profile-pic">VK</span>
+                            <span>Nice, informative video</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="videos">
+                    <div class="videos-sub" id="videos-sub-id_S">
+                        <!--<div class="video">
+                        <img alt="video-thumbnail" width="100%" height="200px" src="./video-images/download.jpg" />
+                    <div class="channel-pic-desc-container">
+                        <div class="channel-profile-pic"><img src="./images/myad.png" height="35" width="35"></div><div class="desc"><span class="main-desc">Full javascript tutorial with notes and interview questions</span><br><span class="sub-desc">Cool Programmer . 244K views . 5 days ago</span></div>
+                    </div>
+                    </div>
+                    <div class="video">
+                        <img alt="video-thumbnail" width="100%" height="200px" src="./video-images/download.jpg" />
+                    <div class="channel-pic-desc-container">
+                        <div class="channel-profile-pic"><img src="./images/myad.png" height="35" width="35"></div><div class="desc"><span class="main-desc">Full javascript tutorial with notes and interview questions</span><br><span class="sub-desc">Cool Programmer . 244K views . 5 days ago</span></div>
+                    </div>
+                    </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="notification-wrap">
+            <div class="notification">
+                <span>Subscription Added</span>
+            </div>
+            </div>
+        </div>
+        <div class="mini-player">
+            <div class="video-mini">
+                <video id="mini-player-video" style="width: 130px;height: 65px;margin-left:-10px;">
+                </video>
+            </div>
+            <div class="titleandchannel">
+                <p id="mini-video-title">This video is uploaded on youtube by Vivek Codes</p>
+                <span id="mini-channel-name">Vivek Codes</span>
+            </div>
+            <div class="pause-play-icon">
+                <i class="fa fa-pause "></i>
+            </div>
+            <div class="close-icon">
+                <i class="fa fa-times"></i>
+            </div>
+        </div>
+        <div class="fixed-footer">
+            <div class="fixed-footer-sub">
+                <div><button><i class="fa-solid fa-home ficon"></i></button><span>Home</span></div>
+                <div><button><i class="fas fa-bolt ficon"></i></button><span>Shorts</span></div>
+                <div><button><i class="fas fa-plus-circle ficon" style="font-size:25px;"></i></button></div>
+                <div><button><i class="fa-brands fa-youtube ficon"></i></button><span>Subscription</span></div>
+                <div><button><i class="fa-solid fa-images ficon"></i></button><span>Library</span></div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
