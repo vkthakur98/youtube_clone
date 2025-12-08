@@ -6,7 +6,7 @@ const short_videos =
 [
     {
         sno:0,
-        video_src:"./videos/JavaScript _THIS_ keyword in 1 Minute shorts.mp4",
+        video_src:"https://res.cloudinary.com/dewqecuha/video/upload/v1765125512/JavaScript__THIS__keyword_in_1_Minute_shorts_stw4ec.mp4",
     }
     ,
     {
@@ -24,14 +24,14 @@ const videos =
 [
     {
         sno:"0",
-        video_src:"./videos/Video.mp4",
+        video_src:"https://res.cloudinary.com/dewqecuha/video/upload/v1765215312/video_za5xs3.mp4",
         thumbnail:"./video-images/coding.webp",
         video_title:"Coding video with typing|Javascript|Web Developer code",
         sdesc:"Vivek Codes .934K views . 2 days ago"
     },
     {
         sno:"1",
-        video_src:"./videos/588729407.mp4",
+        video_src:"https://res.cloudinary.com/dewqecuha/video/upload/v1765215236/588729407_mhjwd0.mp4",
         thumbnail:"./video-images/yoga.jpg",
         video_title:"Girl doing yoga for better health code",
         sdesc:"Yoga se hoga . 1.3M views . 1 month ago"
